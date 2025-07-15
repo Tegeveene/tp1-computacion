@@ -168,6 +168,7 @@ if(terminoElSonido){
 
 ///////////////////////<<<<<------TRAZOS FONDO----->>>>//////////////////////////
 
+//queda ajustar la condicional del audio, comprobe que funciona bien de todas formas
 if(amp > 0.1){//sonido agudo
   console.log("Fondo_sonido detectado")
   for(let i = 0; i < 27; i++){
